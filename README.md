@@ -2,7 +2,7 @@
 
 Website for Utrennik dance event, Moscow, Russia.
 
-PR's a welcome! 😉
+PR's are welcome! 😉
 
 ## Website
 
