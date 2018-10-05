@@ -5,10 +5,37 @@
   <meta name="description" content="Большой ивент для начинающих танцоров. Два JnJ, 🎄Ёлки-стриктли (опытные+малышня с денежным призом), кабаре, ночнина и, бонусом, ночной просмотр The Open!">
   <link rel="stylesheet" href="styles.css">
 </head>
-
+<style>
+blink {
+    -webkit-animation: 1s linear infinite condemned_blink_effect; // for android
+    animation: 1s linear infinite condemned_blink_effect;
+}
+@-webkit-keyframes condemned_blink_effect { // for android
+    0% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+@keyframes condemned_blink_effect {
+    0% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+</style>
 <body>
 <h1>
-  WCS-Утренник 2019
+  <blink>WCS-Утренник 2019<blink>
 </h1>
 <p>
   Дорогие друзья!<br>
@@ -21,5 +48,9 @@
   Празднуй вместе с нами!
 </p>
 <img src="banner-a.jpg">
+<script src="snowflakes.min.js"></script>
+<script>
+	Snowflakes();
+</script>
 </body>
 </html>
