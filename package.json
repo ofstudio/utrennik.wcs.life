@@ -1,0 +1,15 @@
+{
+  "name": "utrennik.wcs.life",
+  "version": "0.0.1",
+  "description": "Website for Utrennik dance event",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ofstudio/utrennik.wcs.life.git"
+  },
+  "author": "Oleg Fomin <ofstudio@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ofstudio/utrennik.wcs.life/issues"
+  },
+  "homepage": "https://utrennik.wcs.life"
+}

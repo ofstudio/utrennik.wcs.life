@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('fonts/ProximaNova/ProximaNova-Semibold.eot');
+  src: local('Proxima Nova Semibold'), local('ProximaNova-Semibold'),
+  url('fonts/ProximaNova/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+  url('fonts/ProximaNova/ProximaNova-Semibold.woff') format('woff'),
+  url('fonts/ProximaNova/ProximaNova-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('fonts/ProximaNova/ProximaNova-Extrabld.eot');
+  src: local('Proxima Nova Extrabold'), local('ProximaNova-Extrabld'),
+  url('fonts/ProximaNova/ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'),
+  url('fonts/ProximaNova/ProximaNova-Extrabld.woff') format('woff'),
+  url('fonts/ProximaNova/ProximaNova-Extrabld.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+html, body {
+  font-family: 'Proxima Nova', sans-serif;
+  color: #fff;
+  background-color: #d64139;
+  font-weight: 600;
+}
+
+body {
+  padding: 32px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 48pt;
+  line-height: 54pt;
+}
+
+p {
+  font-size: 14pt;
+}
+
+img {
+  max-width: 100%;
+}
